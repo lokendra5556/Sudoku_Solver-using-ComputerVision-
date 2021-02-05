@@ -66,7 +66,7 @@ kernel_length=7
 
 # Defining Verticle Kernel
 verticle_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, kernel_length))
-# Defining Verticle Kernel
+# Defining horizontal Kernel
 horizontal_kernel=cv2.getStructuringElement(cv2.MORPH_RECT,(kernel_length,1))
 
 
